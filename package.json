@@ -1,6 +1,6 @@
 {
   "name": "amc-popcorn",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,9 @@
   "author": "никита",
   "license": "MIT",
   "dependencies": {
-    "@infosimples/node_two_captcha": "^1.0.2",
+    "@infosimples/node_two_captcha": "https://github.com/nikita/node_two_captcha",
     "apollo-boost": "^0.4.7",
+    "commander": "^4.0.1",
     "cross-fetch": "^3.0.4",
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",

@@ -2,10 +2,9 @@
 # yarn lockfile v1
 
 
-"@infosimples/node_two_captcha@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@infosimples/node_two_captcha/-/node_two_captcha-1.0.2.tgz#4971f1e530330d010023c4be624617c19ffc2859"
-  integrity sha512-O/FaRjoT5LT9JIgoeBNal+ZCtLESrI16jA6fIVGbOtpTkclfEIkU6DV6rSUt/K+lVJyqO2YFcS+odCLPq9q9OA==
+"@infosimples/node_two_captcha@https://github.com/nikita/node_two_captcha":
+  version "1.0.3"
+  resolved "https://github.com/nikita/node_two_captcha#1ea015e24c87b3601e36c94dd523fc65f462cb86"
   dependencies:
     axios "^0.18.0"
 
@@ -136,6 +135,11 @@ axios@^0.18.0:
   dependencies:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
+
+commander@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-4.0.1.tgz#b67622721785993182e807f4883633e6401ba53c"
+  integrity sha512-IPF4ouhCP+qdlcmCedhxX4xiGBPyigb8v5NeUp+0LyhwLgxMqyp3S0vl7TAPfS/hiP7FC3caI/PB9lTmP8r1NA==
 
 cross-fetch@^3.0.4:
   version "3.0.4"
