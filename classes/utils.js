@@ -1,4 +1,19 @@
-import { createWriteStream } from "fs";
+import { createWriteStream, readFileSync } from "fs";
+
+export const getAccounts = () => {
+  try {
+    return JSON.parse(readFileSync("./accounts.json"));
+  } catch (err) {
+    if (err.code === "ENOENT") {
+      console.error(
+        "Error: You didn't rename accounts.json.example to accounts.json"
+      );
+    } else {
+      console.error(err);
+    }
+    process.exit(1);
+  }
+};
 
 export const saveAccount = (account, accounts) => {
   accounts.push(account);

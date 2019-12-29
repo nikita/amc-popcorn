@@ -160,6 +160,7 @@ export const createAccount = async (
     ) {
       // TODO: Rotate email if get this somehow
       console.log("Need new email");
+      return false;
     } else {
       console.log(err);
     }
