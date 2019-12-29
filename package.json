@@ -1,0 +1,21 @@
+{
+  "name": "amc-popcorn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm ./index"
+  },
+  "keywords": [],
+  "author": "никита",
+  "license": "MIT",
+  "dependencies": {
+    "@infosimples/node_two_captcha": "^1.0.2",
+    "apollo-boost": "^0.4.7",
+    "cross-fetch": "^3.0.4",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1"
+  }
+}
